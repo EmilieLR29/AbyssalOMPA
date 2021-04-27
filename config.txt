@@ -11,7 +11,7 @@
 # https://github.com/nitrogenlab/GP15_watermassanalysis/blob/988fb74f44b7c62b32c6a11752a9bcbb06471783/gp15_intermediateanddeep_obs.csv
 #The csv_file can have any columns you want, but it must contain column headers
 # corresponding to the parameters you wish to use in the OMPA analysis.
-csv_file = "gp15_intermediateanddeep_obs.csv"
+csv_file = "https://github.com/EmilieLR29/AbyssalOMPA/blob/main/ABYSSAL.csv"
 na_values = -999 #this specifies how "NA" values are denoted in the
 #                 observations .csv file
 
@@ -20,7 +20,7 @@ na_values = -999 #this specifies how "NA" values are denoted in the
 # corresponding to the parameters you wish to use in theOMPA analysis. See
 #https://github.com/nitrogenlab/GP15_watermassanalysis/blob/988fb74f44b7c62b32c6a11752a9bcbb06471783/endmember_df_intermediateanddeep.csv
 # for an example
-csv_file = "abyssal_endmembers.csv" #this is a path to a .csv
+csv_file = "https://github.com/EmilieLR29/AbyssalOMPA/blob/main/abyssal_endmembers.csv" #this is a path to a .csv
 #                                                  file containing the
 #                                                  end-members.
 endmember_name_column = "watermass_name" #what is the header of the column
