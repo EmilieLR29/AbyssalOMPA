@@ -75,13 +75,13 @@ ratios = [-1, -1] #sign is negative because oxygen is consumed when
 # specified for an endmember; each one would just need to given a section
 # like endmember_penalties.endmembername.fieldname, and the penalties would
 # be added up under-the-hood.
-[endmember_penalties.LCDW.sigma0]
-type="density_default"
-lowerbound = 27.72
+#[endmember_penalties.LCDW.sigma0]
+#type="density_default"
+#lowerbound = 27.72
 
-[endmember_penalties.AABW.sigma0]
-type="density_default"
-lowerbound = 27.72
+#[endmember_penalties.AABW.sigma0]
+#type="density_default"
+#lowerbound = 27.72
 
 [endmember_penalties.PSUW.lat]
 type="latlon_default"
