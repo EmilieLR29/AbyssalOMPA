@@ -104,7 +104,7 @@ beta=50 #linearly scales penalty
 #Settings specifiying how to export the results
 [export]
 csv_output_name="ompa_soln.csv"
-orig_cols_to_include = ["lat", "lon", "depth", "stnnbr", "geotrc_ID"] #columns
+orig_cols_to_include = ["lat", "lon", "depth", "stnnbr"] #columns
 #                              from the obs_df you want repeated in the output
 export_orig_param_vals=true #whether to repeat the original parameter values.
 export_residuals=true #residuals are observed-reconstructed. Columns will have
