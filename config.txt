@@ -11,7 +11,7 @@
 # https://github.com/nitrogenlab/GP15_watermassanalysis/blob/988fb74f44b7c62b32c6a11752a9bcbb06471783/gp15_intermediateanddeep_obs.csv
 #The csv_file can have any columns you want, but it must contain column headers
 # corresponding to the parameters you wish to use in the OMPA analysis.
-csv_file = "gp15_intermediateanddeep_obs.csv"
+csv_file = "P16N.csv"
 na_values = -999 #this specifies how "NA" values are denoted in the
 #                 observations .csv file
 
