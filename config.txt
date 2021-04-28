@@ -83,9 +83,9 @@ ratios = [-1, -1] #sign is negative because oxygen is consumed when
 #type="density_default"
 #lowerbound = 27.72
 
-[endmember_penalties.PSUW.lat]
-type="latlon_default"
-lowerbound = 10
+#[endmember_penalties.PSUW.lat]
+#type="latlon_default"
+#lowerbound = 10
 #'upperbound' can also be specified here if desired.
 
 #type="latlon_default" and type="density_default" specify default values for
@@ -95,11 +95,11 @@ lowerbound = 10
 # of alpha and beta can be overridden. You can also set type="other", which
 # specifies no defaults for alpha and beta and forces the user to
 # provide both.
-[endmember_penalties.PSUW.depth]
-type="other"
-upperbound = 3000
-alpha=0.001 #controls rate of exponential increase
-beta=50 #linearly scales penalty
+#[endmember_penalties.PSUW.depth]
+#type="other"
+#upperbound = 3000
+#alpha=0.001 #controls rate of exponential increase
+#beta=50 #linearly scales penalty
 
 #Settings specifiying how to export the results
 [export]
